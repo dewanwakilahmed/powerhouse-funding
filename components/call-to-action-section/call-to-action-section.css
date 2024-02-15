@@ -1,0 +1,44 @@
+.call-to-action-section {
+  @apply section 
+  section-with-no-bg-img;
+}
+
+.call-to-action-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.call-to-action-content {
+  @apply section-content 
+  grid-cols-1
+  lg:grid-cols-2;
+}
+
+.call-to-action-card {
+  @apply card 
+  card-light
+  md:items-center
+  md:justify-center
+  lg:items-start
+  lg:justify-start;
+}
+
+.call-to-action-card-title {
+  @apply card-title 
+  card-title-light
+  md:text-center
+  lg:text-start;
+}
+
+.call-to-action-card-description {
+  @apply card-description 
+  card-description-light
+  md:text-center
+  lg:text-start;
+}
+
+.call-to-action-card-btn {
+  @apply lg:mr-auto 
+  lg:ml-0 
+  mt-3;
+}

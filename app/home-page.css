@@ -1,0 +1,191 @@
+.home-page {
+}
+
+/* HERO SECTION */
+.home-hero-section {
+  @apply section
+  section-with-bg-img
+  h-screen;
+}
+
+.home-hero-content {
+  @apply hero-content;
+}
+
+.home-hero-headline {
+  @apply hero-headline;
+}
+
+.home-hero-subheadline {
+  @apply hero-subheadline;
+}
+
+.home-hero-cta {
+  @apply hero-cta;
+}
+
+/* OUR FINANCIAL SOLUIONS SECTION */
+.our-financial-solutions-section {
+  @apply section
+  section-with-no-bg-img;
+}
+
+.our-financial-solutions-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.our-financial-solutions-content {
+  @apply section-content 
+  grid-cols-1
+  sm:grid-cols-2
+  lg:grid-cols-3;
+}
+
+.financial-solution-card {
+  @apply card
+  card-light;
+}
+
+.financial-solution-icon {
+  @apply text-gray-800 
+  text-4xl
+  mb-1.5;
+}
+
+.financial-solution-title {
+  @apply card-title
+  card-title-light;
+}
+
+.financial-solution-description {
+  @apply card-description 
+  card-description-light;
+}
+
+.financial-solution-learn-more-link {
+  @apply text-blue-700 
+  hover:underline 
+  mt-1.5
+  text-sm
+  md:text-base;
+}
+
+/* WHY CHOOSE US SECTION */
+.why-choose-us-section {
+  @apply section 
+  section-with-bg-img;
+}
+
+.why-choose-us-title {
+  @apply section-title 
+  section-title-with-bg-img;
+}
+
+.why-choose-us-content {
+  @apply section-content 
+  grid-cols-1
+  lg:grid-cols-3;
+}
+
+.benefit-card {
+  @apply card
+  card-dark;
+}
+
+.benefit-card-icon {
+  @apply text-neutral-50
+  text-3xl
+  mb-1;
+}
+
+.benefit-card-title {
+  @apply card-title card-title-dark;
+}
+
+.benefit-card-description {
+  @apply card-description
+  card-description-dark;
+}
+
+/* ABOUT US SECTION */
+.about-us-section {
+  @apply section 
+  section-with-no-bg-img;
+}
+
+.about-us-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.about-us-content {
+  @apply section-content 
+  grid-cols-1
+  md:grid-cols-2;
+}
+
+.about-us-card {
+  @apply card
+  card-light;
+}
+
+.about-us-card-title {
+  @apply card-title 
+  card-title-light;
+}
+
+.about-us-card-description {
+  @apply card-description 
+  card-description-light;
+}
+
+.about-us-card-img {
+  @apply mt-3;
+}
+
+/* TESTIMONIALS SECTION */
+.testimonials-section {
+  @apply section 
+  section-with-bg-img;
+}
+
+.testimonials-title {
+  @apply section-title 
+  section-title-with-bg-img;
+}
+
+.testimonials-content {
+  @apply section-content 
+  grid-cols-1
+  lg:grid-cols-3;
+}
+
+.testimonial-card {
+  @apply card
+  card-dark;
+}
+
+.testimonial-person-img {
+  @apply w-36 
+  h-auto 
+  rounded-lg 
+  mb-6;
+}
+
+.testimonial-person-name {
+  @apply text-lg 
+  text-neutral-50 
+  font-bold;
+}
+
+.testimonial-person-info {
+  @apply text-sm 
+  text-neutral-300 
+  font-medium mb-2;
+}
+
+.testimonial-person-feedback {
+  @apply card-description
+  card-description-dark;
+}

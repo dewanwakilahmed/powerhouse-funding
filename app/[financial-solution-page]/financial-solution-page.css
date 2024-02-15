@@ -1,0 +1,213 @@
+.merchant-cash-advance-page,
+.term-loan-page,
+.line-of-credit-page,
+.asset-based-lending-page,
+.equipment-financing-page,
+.bad-credit-lending-page {
+}
+
+/* HERO SECTION */
+.merchant-cash-advance-hero-section,
+.term-loan-hero-section,
+.line-of-credit-hero-section,
+.asset-based-lending-hero-section,
+.equipment-financing-hero-section,
+.bad-credit-lending-hero-section {
+  @apply section
+  section-with-bg-img
+  h-screen;
+}
+
+.merchant-cash-advance-hero-content,
+.term-loan-hero-content,
+.line-of-credit-hero-content,
+.asset-based-lending-hero-content,
+.equipment-financing-hero-content,
+.bad-credit-lending-hero-content {
+  @apply hero-content;
+}
+
+.merchant-cash-advance-hero-headline,
+.term-loan-hero-headline,
+.line-of-credit-hero-headline,
+.asset-based-lending-hero-headline,
+.equipment-financing-hero-headline,
+.bad-credit-lending-hero-headline {
+  @apply hero-headline;
+}
+
+.merchant-cash-advance-hero-subheadline,
+.term-loan-hero-subheadline,
+.line-of-credit-hero-subheadline,
+.asset-based-lending-hero-subheadline,
+.equipment-financing-hero-subheadline,
+.bad-credit-lending-hero-subheadline {
+  @apply hero-subheadline;
+}
+
+.merchant-cash-advance-hero-cta,
+.term-loan-hero-cta,
+.line-of-credit-hero-cta,
+.asset-based-lending-hero-cta,
+.equipment-financing-hero-cta,
+.bad-credit-lending-hero-cta {
+  @apply hero-cta;
+}
+
+/* WHAT IS SECTION */
+.what-is-section {
+  @apply section
+  section-with-no-bg-img;
+}
+
+.what-is-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.what-is-content {
+  @apply section-content
+  grid-cols-1;
+}
+
+.what-is-card {
+  @apply card
+  card-light;
+}
+
+.what-is-card-description {
+  @apply card-description
+  card-description-light;
+}
+
+/* HOW IT WORKS SECTION */
+.how-it-works-section {
+  @apply section
+  section-with-bg-img;
+}
+
+.how-it-works-title {
+  @apply section-title 
+  section-title-with-bg-img;
+}
+
+.how-it-works-content {
+  @apply section-content
+  grid-cols-1;
+}
+
+.how-it-works-card {
+  @apply card
+  card-dark;
+}
+
+.how-it-works-card-title {
+  @apply card-title
+  card-title-dark;
+}
+
+.how-it-works-card-description {
+  @apply card-description
+  card-description-dark;
+}
+
+/* BENEFITS SECTION */
+.benefits-section {
+  @apply section
+  section-with-no-bg-img;
+}
+
+.benefits-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.benefits-content {
+  @apply section-content
+  grid-cols-1;
+}
+
+.benefit-card {
+  @apply card
+  card-light;
+}
+
+.benefit-card-title {
+  @apply card-title
+  card-title-light;
+}
+
+.benefit-card-description {
+  @apply card-description
+  card-description-light;
+}
+
+/* USE CASES SECTION */
+.use-cases-section {
+  @apply section
+  section-with-bg-img;
+}
+
+.use-cases-title {
+  @apply section-title 
+  section-title-with-bg-img;
+}
+
+.use-cases-content {
+  @apply section-content
+  grid-cols-1;
+}
+
+.use-case-card {
+  @apply card
+  card-dark;
+}
+
+.use-case-card-title {
+  @apply card-title
+  card-title-dark;
+}
+
+.use-case-card-description {
+  @apply card-description
+  card-description-dark;
+}
+
+/* CONSIDERATIONS SECTION */
+.considerations-section {
+  @apply section
+  section-with-no-bg-img;
+}
+
+.considerations-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.considerations-content {
+  @apply section-content
+  grid-cols-1;
+}
+
+.consideration-card {
+  @apply card
+  card-light;
+}
+
+.consideration-card-title {
+  @apply card-title
+  card-title-light;
+}
+
+.consideration-card-description {
+  @apply card-description
+  card-description-light;
+}
+
+/* FOR ALL SECTIONS CONTENT */
+.how-it-works-content,
+.benefits-content,
+.use-cases-content,
+.considerations-content {
+  @apply md:grid-cols-2;
+}

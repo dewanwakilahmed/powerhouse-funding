@@ -1,0 +1,70 @@
+.footer-section {
+  @apply section
+  section-with-no-bg-img
+  section-with-bg-img;
+}
+
+.footer-bg-overlay {
+  @apply bg-img-overlay;
+}
+
+.footer-content {
+  @apply section-content
+  grid-cols-1
+  gap-9
+  md:gap-10;
+}
+
+.company-info {
+  @apply text-neutral-50
+  grid
+  gap-5
+  items-center
+  justify-between
+  md:gap-6
+  grid-cols-1
+  lg:grid-cols-3
+  xl:grid-cols-4;
+}
+
+.company-logo-footer {
+  @apply company-logo 
+  text-center
+  lg:col-span-full
+  xl:col-span-1
+  xl:text-start;
+}
+
+.company-info-item {
+  @apply grid
+  gap-1.5
+  md:gap-2
+  grid-cols-1
+  text-sm
+  md:text-base 
+  hover:text-primary 
+  transition;
+}
+
+.company-info-icon,
+.company-info-text {
+  @apply text-center
+  w-full
+  leading-3;
+}
+
+.company-info-icon {
+  @apply text-2xl
+  md:text-3xl
+  lg:text-4xl
+  2xl:text-5xl;
+}
+
+.copyright {
+  @apply text-center 
+  text-xs
+  md:text-sm
+  text-neutral-300
+  grid
+  grid-cols-1;
+}

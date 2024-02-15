@@ -1,0 +1,132 @@
+.header-section {
+  @apply w-full 
+  fixed 
+  z-10 
+  bg-neutral-950/25 
+  backdrop-blur 
+  hover:backdrop-blur-md 
+  shadow-lg 
+  hover:shadow-xl;
+}
+
+.header-content {
+  @apply section-content 
+  py-5 
+  flex 
+  items-center 
+  justify-between;
+}
+
+.company-logo-header {
+  @apply company-logo
+  text-lg 
+  text-neutral-50 
+  hover:text-primary 
+  font-bold 
+  transition;
+}
+
+.navbar-side-menu {
+  @apply lg:hidden;
+}
+
+.side-menu-open-btn {
+  @apply text-neutral-50
+  cursor-pointer
+  hover:text-primary
+  text-2xl
+  transition;
+}
+
+.navbar {
+  @apply hidden 
+  lg:flex;
+}
+
+.navbar-list {
+  @apply flex 
+  gap-6 
+  items-center 
+  justify-center 
+  text-neutral-50;
+}
+
+.navbar-item {
+  @apply hover:text-primary 
+  px-4 
+  py-2 
+  transition 
+  cursor-pointer
+  relative;
+}
+
+.dropdown-menu {
+  @apply absolute 
+  bg-neutral-950/80 
+  hover:backdrop-blur-md 
+  shadow-lg 
+  hover:shadow-xl 
+  transition 
+  left-0 
+  top-10 
+  text-neutral-50;
+}
+
+.dropdown-item {
+  @apply px-4 
+  py-2 
+  hover:bg-neutral-950/75 
+  transition 
+  whitespace-nowrap;
+}
+
+.side-menu {
+  @apply fixed 
+  right-0 
+  top-0 
+  bottom-0 
+  transform translate-x-full 
+  transition-transform 
+  w-full
+  flex
+  flex-col
+  items-center 
+  justify-center
+  p-8
+  h-screen
+  text-neutral-50
+  
+  bg-neutral-950/95 
+  backdrop-blur-md;
+
+  &.open {
+    @apply transform-none;
+  }
+}
+
+.side-menu-close-btn {
+  @apply absolute
+  top-10
+  right-10
+  text-xl
+  cursor-pointer
+  hover:text-primary
+  transition;
+}
+
+.side-menu-navbar-list {
+  @apply grid
+  grid-cols-1
+  gap-3;
+}
+
+.side-menu-navbar-item {
+  @apply hover:text-primary 
+  transition;
+}
+
+.side-menu-cta {
+  @apply !ml-0
+  !mr-auto
+  hover:text-neutral-50;
+}

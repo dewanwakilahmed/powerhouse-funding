@@ -1,0 +1,26 @@
+.btn {
+  @apply mx-auto
+  transition
+  text-sm
+  md:text-base
+  py-1 
+  px-3
+  md:py-1
+  md:px-3.5
+  lg:py-1.5
+  lg:px-5
+  rounded-sm
+  md:rounded-md;
+}
+
+.primary {
+  @apply text-neutral-50
+  bg-primary 
+  hover:bg-primary/75;
+}
+
+.secondary {
+  @apply bg-neutral-800/60
+  text-neutral-50 
+  hover:bg-neutral-800/50;
+}

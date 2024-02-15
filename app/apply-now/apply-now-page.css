@@ -1,0 +1,81 @@
+.apply-now-page {
+}
+
+.apply-now-section {
+  @apply section
+  section-with-bg-img
+  min-h-screen;
+}
+
+.apply-now-title {
+  @apply section-title
+  section-title-with-bg-img
+  mt-9
+  mb-1
+  md:mb-1.5
+  lg:mb-2.5;
+}
+
+.visitor-instruction-container {
+  @apply text-neutral-400 
+  text-xs
+  md:text-sm
+  lg:text-base 
+  relative 
+  text-center
+  px-6
+  md:px-8
+  xl:px-10;
+}
+
+.visitor-instruction {
+}
+
+.apply-now-content {
+  @apply card
+  card-dark
+  mt-2
+  md:mt-3
+  lg:mt-5;
+}
+
+.apply-now-form {
+  @apply flex 
+  flex-col 
+  gap-3
+  md:gap-4;
+}
+
+.input-item-container {
+  @apply flex 
+  items-center 
+  justify-between
+  gap-2;
+}
+
+.input-label {
+  @apply text-neutral-200
+  text-sm
+  md:text-base
+  hidden;
+}
+
+.input-item {
+  @apply outline-none
+  p-2
+  rounded
+  text-sm
+  md:text-base
+  w-56
+  sm:w-72
+  md:w-80
+  lg:w-96
+  bg-gradient-to-tr from-gray-300 to-gray-100;
+}
+
+.apply-now-form-btn {
+}
+
+.apply-now-form-submit {
+  @apply cursor-pointer;
+}

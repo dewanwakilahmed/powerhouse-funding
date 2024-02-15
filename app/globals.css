@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .company-logo {
+    @apply text-lg 
+    font-bold 
+    transition
+    hover:text-primary;
+  }
+
+  .section {
+    @apply flex
+    flex-col
+    justify-center
+    items-center
+    py-8
+    md:py-10
+    xl:py-16;
+  }
+
+  .section-with-bg-img {
+    @apply bg-cover 
+    relative;
+  }
+
+  .section-with-no-bg-img {
+    @apply bg-gradient-to-tr from-gray-300 to-gray-100;
+  }
+
+  .bg-img-overlay {
+    @apply bg-overlay
+    absolute
+    inset-0;
+  }
+
+  .section-title {
+    @apply text-center
+    font-light
+    text-base
+    md:text-lg
+    xl:text-xl
+    mb-6
+    md:mb-8
+    xl:mb-10;
+  }
+
+  .section-title-with-bg-img {
+    @apply relative
+    text-neutral-50;
+  }
+
+  .section-title-with-no-bg-img {
+    @apply text-gray-800;
+  }
+
+  .section-content {
+    @apply mx-auto
+    grid
+    items-stretch
+    justify-center
+    relative
+    gap-6
+    md:gap-8
+    xl:gap-10
+    px-6
+    md:px-8
+    xl:px-10
+    w-full
+    max-w-7xl;
+  }
+
+  .card {
+    @apply flex
+    flex-col
+    gap-1  
+    rounded-md
+    transition
+    items-center
+    justify-center
+    p-5
+    md:p-6
+    xl:p-8
+    shadow-lg 
+    hover:shadow-xl;
+  }
+
+  .card-light {
+    @apply bg-neutral-50 
+    hover:bg-neutral-100
+    md:items-start
+    md:justify-start;
+  }
+
+  .card-dark {
+    @apply bg-neutral-900/70
+    hover:bg-neutral-900/85
+    backdrop-blur-sm;
+  }
+
+  .card-title {
+    @apply text-base
+    md:text-lg
+    text-center;
+  }
+
+  .card-title-light {
+    @apply text-gray-800
+    md:text-start;
+  }
+
+  .card-title-dark {
+    @apply text-neutral-50;
+  }
+
+  .card-description {
+    @apply font-light
+    text-sm
+    text-center
+    md:text-base
+    flex-grow;
+  }
+
+  .card-description-light {
+    @apply text-gray-600
+    md:text-start;
+  }
+
+  .card-description-dark {
+    @apply text-neutral-400;
+  }
+
+  .hero-content {
+    @apply section-content
+    gap-0;
+  }
+
+  .hero-headline {
+    @apply text-primary
+    text-center
+    font-semibold
+    text-base
+    sm:text-lg
+    md:text-xl
+    lg:text-2xl
+    xl:text-3xl
+    2xl:text-4xl;
+  }
+
+  .hero-subheadline {
+    @apply text-neutral-50
+    text-center 
+    font-extralight
+    text-sm
+    sm:text-base
+    md:text-lg
+    lg:text-xl
+    xl:text-2xl
+    2xl:text-3xl
+    mt-1
+    sm:mt-1.5;
+  }
+
+  .hero-cta {
+    @apply mt-2.5
+    sm:mt-5;
+  }
+}
+
+body {
+  @apply overflow-x-hidden;
+}
+
+/* Add this to your globals.css file */
+
+/* This will change the scrollbar for the whole page */
+body::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #888; /* Color of the track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #999; /* Color of the scroll thumb */
+  border-radius: 3px; /* Roundness of the scroll thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #666; /* Color of the scroll thumb on hover */
+}
